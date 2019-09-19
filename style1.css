@@ -1,0 +1,55 @@
+*
+{
+	font-family: 'Cinzel', serif;
+	padding:0;
+	margin:0;
+}
+body
+{
+	background-color:#EFE2BA;
+}
+.topnav {
+  background-color: #4056A1;
+  width:100%;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #45A29E;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+ 
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.loginbox
+{
+	
+  background:  #4056A1;
+  border: 1px solid #42464b;
+  border-radius: 6px;
+  height: 300px;
+  margin: 200px 500px;
+  width: 320px;
+}
+.loginbox[type="Submit"]
+
+{
+	margin: 10px;
+	border-radius:20;
+}
+.loginbox[type="Name"]
+
+{
+	text-align:center;
+}
